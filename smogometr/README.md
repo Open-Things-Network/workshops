@@ -18,11 +18,12 @@ Warsztaty odbyły się w czerwcu 2019 roku na Uniwersytecie Kazimierza Wielkiego
 * Dostęp do internetu i zasięg sieci The Things Network
 
 ## Wymagania związane z oprogramowaniem
-* Najnowsza wersja [Arduino IDE](https://www.arduino.cc/en/main/software)
-* [Arduino-LMIC Library](https://github.com/matthijskooijman/arduino-lmic)
-* [Adafruit BME280 Library](https://github.com/adafruit/Adafruit_BME280_Library)
-* [Adafruit Unified Sensor Driver](https://github.com/adafruit/Adafruit_Sensor)
-* [Cayenne LPP](https://github.com/ElectronicCats/CayenneLPP) lub [The Things Network Arduino Library](https://github.com/TheThingsNetwork/arduino-device-lib), która zawiera CayenneLPP
+- Najnowsza wersja [Arduino IDE](https://www.arduino.cc/en/main/software)
+- Zainstalowane biblioteki:
+  - [Arduino-LMIC Library](https://github.com/matthijskooijman/arduino-lmic)
+  - [Adafruit BME280 Library](https://github.com/adafruit/Adafruit_BME280_Library)
+  - [Adafruit Unified Sensor Driver](https://github.com/adafruit/Adafruit_Sensor)
+  - [Cayenne LPP](https://github.com/ElectronicCats/CayenneLPP) lub [The Things Network Arduino Library](https://github.com/TheThingsNetwork/arduino-device-lib), która zawiera CayenneLPP
 
 # Instalacja
 
