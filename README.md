@@ -1,1 +1,1 @@
-# workshops
+To repozytorium zawiera materiały przygotowane na potrzeby różnych warsztatów związanych z technologią LoRaWAN i projektem The Things Network. Liczymy, że udostępnione prezentacje oraz projekty okażą się pomocne i ułatwią rozpoczęcie realizacji własnych pomysłów.
