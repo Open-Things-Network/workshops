@@ -29,13 +29,13 @@ Warsztaty odbyły się w czerwcu 2019 roku na Uniwersytecie Kazimierza Wielkiego
 1. Podłącz moduł LoRa32u4II i zainstaluj sterowniki (dotyczy tylko Windows). 
 > W przypadku Windows 7 należy użyć [poprawionego sterownika](hardware/w7driver.zip).
 2. Zainstaluj Arduino IDE i wszystkie wymienione wyżej biblioteki.
-3. Ściągnij I rozpakuj [ten](hardware/BSFrance.zip) plik do folderu Arduino/hardware. Pozwoli to na używanie płytki LoRa32u4II w środowisku Arduino.
+3. Ściągnij i rozpakuj [ten](hardware/BSFrance.zip) plik do folderu Arduino/hardware. Pozwoli to na używanie płytki LoRa32u4II w środowisku Arduino.
 4. Uruchom Arduino IDE, wybierz płytkę LoRa32u4II oraz odpowiedni port szeregowy.
 5. Otwórz projekt `smogometr.ino`.
 6. Postępuj zgodnie z instrukcjami w załączonej prezentacji.
 
 # Kompensacja wpływu wilgotności
 
-Obserwując dane przesyłane przez urządzenie można zauważyć, że wskazania czujnika pyłu (wartości PM2,5 i PM10) zmieniają się w zależności od zmian wilgotności. Wpływ wilgotności na pomiary stężenia pyłu można skompensować za pomocą rozwiązań programowych, które są dość dobrze opisane przez [Opendata Stuttgart](https://github.com/opendata-stuttgart/meta/wiki/EN-Correction-for-humidity).
+Obserwując dane przesyłane przez urządzenie można zauważyć, że wskazania czujnika pyłu (wartości PM2.5 i PM10) zmieniają się w zależności od zmian wilgotności. Wpływ wilgotności na pomiary stężenia pyłu można skompensować za pomocą rozwiązań programowych, które zostały dobrze opisane przez [Opendata Stuttgart](https://github.com/opendata-stuttgart/meta/wiki/EN-Correction-for-humidity).
 
 Drugi projekt (`smogometr_heca.ino`) dołączony do tego repozytorium jest rozszerzeniem projektu użytego podczas warsztatów i umożliwia wykorzystanie prostego rozwiązania sprzętowego w postaci [zestawu HECA](https://nettigo.pl/products/nettigo-air-monitor-heca-kit-komora-grzalki-ptc-z-modulem-sterujacym) (Heating Element Control Assembly). HECA ogrzewa powietrze zanim dotrze ono do czujnika pyłu. W ten sposób wysoka wilgotność nie zawyża pomiarów.
