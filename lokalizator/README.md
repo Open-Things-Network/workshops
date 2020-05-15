@@ -9,11 +9,11 @@ Materiały te zostały przygotowane na potrzeby warsztatów, które odbyły się
 
 ## Wymagania sprzętowe
 
-* Moduł LoRa32u4II (mikrokontroler Atmega 32U4 i układ SX1276)
+* Moduł [LoRa32u4II](docs/LoRa32u4II_datasheet.pdf) (mikrokontroler Atmega 32U4 i układ SX1276)
 * Odbiornik GPS z interfejsem szeregowym i anteną (np. popularny moduł z układem u-blox NEO-6M)
 * Antena 868MHz ze złączem U.FL
 * Kabel micro-USB
-* Przewody typu Dupont z końcówkami żeńskimi o długości ok. 10 cm
+* Przewody połączeniowe do płytek stykowych (typu Dupont) z końcówkami żeńskimi
 * Komputer z systemem Windows 7 lub wyższym, Mac OS X lub Linux
 * Dostęp do internetu i zasięg sieci The Things Network
 
