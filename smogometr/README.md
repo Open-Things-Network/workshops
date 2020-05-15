@@ -40,3 +40,7 @@ Warsztaty odbyły się w czerwcu 2019 roku na Uniwersytecie Kazimierza Wielkiego
 Obserwując dane przesyłane przez urządzenie można zauważyć, że wskazania czujnika pyłu (wartości PM2.5 i PM10) zmieniają się w zależności od zmian wilgotności. Wpływ wilgotności na pomiary stężenia pyłu można skompensować za pomocą rozwiązań programowych, które zostały dobrze opisane przez [Opendata Stuttgart](https://github.com/opendata-stuttgart/meta/wiki/EN-Correction-for-humidity).
 
 Drugi projekt (`smogometr_heca.ino`) dołączony do tego repozytorium jest rozszerzeniem projektu użytego podczas warsztatów i umożliwia wykorzystanie prostego rozwiązania sprzętowego w postaci [zestawu HECA](https://nettigo.pl/products/nettigo-air-monitor-heca-kit-komora-grzalki-ptc-z-modulem-sterujacym) (Heating Element Control Assembly). HECA ogrzewa powietrze zanim dotrze ono do czujnika pyłu. W ten sposób wysoka wilgotność nie zawyża pomiarów.
+
+![smogometr-heca-1](media/smogometr-heca-1.jpg)
+
+![smogometr-heca-2](media/smogometr-heca-2.jpg)
