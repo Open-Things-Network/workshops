@@ -8,12 +8,12 @@ Warsztaty odbyły się w czerwcu 2019 roku na Uniwersytecie Kazimierza Wielkiego
 
 ## Wymagania sprzętowe
 
-* Moduł LoRa32u4II (mikrokontroler Atmega 32U4 i układ SX1276)
-* Czujnik pyłu zawieszonego SDS011
+* Moduł [LoRa32u4II](docs/LoRa32u4II_datasheet.pdf) (mikrokontroler Atmega 32U4 i układ SX1276)
+* Czujnik pyłu zawieszonego [SDS011](docs/SDS011_specification.pdf)
 * Czujnik temperatury, wilgotności i ciśnienia BME280
 * Antena 868MHz ze złączem U.FL
 * Kabel micro-USB
-* Przewody typu Dupont z końcówkami żeńskimi o długości ok. 10 cm
+* Przewody połączeniowe do płytek stykowych (typu Dupont) z końcówkami żeńskimi
 * Komputer z systemem Windows 7 lub wyższym, Mac OS X lub Linux
 * Dostęp do internetu i zasięg sieci The Things Network
 
