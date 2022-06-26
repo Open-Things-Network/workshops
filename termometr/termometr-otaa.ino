@@ -134,18 +134,16 @@ void onEvent (ev_t ev)
       break;
     case EV_JOINED:
       Serial.println(F("EV_JOINED"));
-      {
-        u4_t netid = 0;
-        devaddr_t devaddr = 0;
-        u1_t nwkKey[16];
-        u1_t artKey[16];
-        LMIC_getSessionKeys(&netid, &devaddr, nwkKey, artKey);
-        Serial.print("netid: ");
-        Serial.println(netid, DEC);
-        Serial.print("devaddr: ");
-        Serial.println(devaddr, HEX);
-        Serial.println();
-      }
+      u4_t netid = 0;
+      devaddr_t devaddr = 0;
+      u1_t nwkKey[16];
+      u1_t artKey[16];
+      LMIC_getSessionKeys(&netid, &devaddr, nwkKey, artKey);
+      Serial.print("netid: ");
+      Serial.println(netid, DEC);
+      Serial.print("devaddr: ");
+      Serial.println(devaddr, HEX);
+      Serial.println();
       LMIC_setLinkCheckMode(0);
       break;
     case EV_JOIN_FAILED:
