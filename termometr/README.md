@@ -57,5 +57,5 @@ Zmiany w pliku `libraries/MCCI_LoRaWAN_LMIC_library/src/lmic/config.h` pozwolą 
 ...
 ```
 6. Zarejestruj urządzenie końcowe w sieci TTN według opisu w [dokumentacji](https://www.thethingsindustries.com/docs/devices/adding-devices/#otaa-devices).
-7. Otwórz projekt `termometr.ino`.
-8. Wprowadź wartości `AppEUI`, `DevEUI` oraz `AppKey` uzyskane podczas rejestracji urządzenia zwracając uwagę na odpowiednią kolejność bajtów.
+7. Otwórz projekt `termometr-otaa.ino`.
+8. Wprowadź wartości `AppEUI`, `DevEUI` oraz `AppKey` uzyskane podczas rejestracji urządzenia zwracając uwagę na wymaganą kolejność bajtów.
